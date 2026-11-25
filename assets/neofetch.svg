@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="330" viewBox="0 0 850 330">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .header { fill: #161b22; }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace; font-size: 14px; }
+    .title { fill: #c9d1d9; font-weight: bold; }
+    .crimson { fill: #b91c1c; font-weight: bold; }
+    .crimson-soft { fill: #991b1b; }
+    .key { fill: #dc2626; font-weight: bold; }
+    .val { fill: #e6edf3; }
+    .muted { fill: #8b949e; }
+    .prompt-user { fill: #dc2626; font-weight: bold; }
+    .prompt-path { fill: #58a6ff; font-weight: bold; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor { fill: #dc2626; animation: blink 1s infinite; }
+  </style>
+
+  
+  <rect x="2" y="2" width="846" height="326" rx="10" class="bg" />
+  
+  
+  <path d="M 12 2 H 838 A 10 10 0 0 1 848 12 V 34 H 2 V 12 A 10 10 0 0 1 12 2 Z" class="header" />
+  <line x1="2" y1="34" x2="848" y2="34" stroke="#30363d" stroke-width="1" />
+  
+  
+  <circle cx="22" cy="18" r="5.5" fill="#dc2626" />
+  <circle cx="40" cy="18" r="5.5" fill="#d97706" />
+  <circle cx="58" cy="18" r="5.5" fill="#16a34a" />
+  <text x="425" y="22" text-anchor="middle" class="mono muted" font-size="12">sergio@debian: ~ (fish)</text>
+
+  
+  <text x="25" y="62" class="mono">
+    <tspan class="prompt-user">sergio@debian</tspan><tspan class="val">:</tspan><tspan class="prompt-path">~</tspan><tspan class="val">$ neofetch --profile</tspan>
+  </text>
+
+  
+  <g class="mono crimson" xml:space="preserve">
+    <text x="35" y="95">       _,met\[\]$gg.</text>
+    <text x="35" y="113">    ,g\[\]\[\]\[\]$$$P.</text>
+    <text x="35" y="131">  ,gP"     """Y.".</text>
+    <text x="35" y="149"> ,$$P'              `$$$.</text>
+    <text x="35" y="167">',$$P       ,ggs.     `$$b:</text>
+    <text x="35" y="185">`d$$'     ,$P"'   .    $$$</text>
+    <text x="35" y="203"> \[P      d$'     ,\]P</text>
+    <text x="35" y="221"> :.   -    ,d$$'</text>
+    <text x="35" y="239"> $;      Yb._   _,d$P'</text>
+    <text x="35" y="257"> Y$$.    `.`"Y$$$$P"'</text>
+    <text x="35" y="275"> `$$b      "-.__</text>
+    <text x="35" y="293">  `Y$$</text>
+  </g>
+
+  
+  <g class="mono">
+    <text x="330" y="95">
+      <tspan class="crimson">sergio</tspan><tspan class="val">@</tspan><tspan class="crimson">github</tspan>
+    </text>
+    <text x="330" y="112" class="muted">-----------------------------------------</text>
+    
+    <text x="330" y="132"><tspan class="key">Name:</tspan> <tspan class="val">Sergio Andres Losada Lavao</tspan></text>
+    <text x="330" y="152"><tspan class="key">Role:</tspan> <tspan class="val">Software Developer (ADSO)</tspan></text>
+    <text x="330" y="172"><tspan class="key">OS:</tspan> <tspan class="val">Debian GNU/Linux 13 (trixie)</tspan></text>
+    <text x="330" y="192"><tspan class="key">Shell:</tspan> <tspan class="val">fish + tmux</tspan></text>
+    <text x="330" y="212"><tspan class="key">Languages:</tspan> <tspan class="val">Python, PHP, Java, SQL</tspan></text>
+    <text x="330" y="232"><tspan class="key">Databases:</tspan> <tspan class="val">PostgreSQL, MySQL</tspan></text>
+    <text x="330" y="252"><tspan class="key">Tools:</tspan> <tspan class="val">Docker, Git, VS Code, OpenCode</tspan></text>
+    <text x="330" y="272"><tspan class="key">Location:</tspan> <tspan class="val">Neiva, Colombia</tspan></text>
+
+    
+    <rect x="330" y="288" width="22" height="12" fill="#0d1117" stroke="#30363d" />
+    <rect x="352" y="288" width="22" height="12" fill="#7f1d1d" />
+    <rect x="374" y="288" width="22" height="12" fill="#991b1b" />
+    <rect x="396" y="288" width="22" height="12" fill="#b91c1c" />
+    <rect x="418" y="288" width="22" height="12" fill="#dc2626" />
+    <rect x="440" y="288" width="22" height="12" fill="#8b949e" />
+    <rect x="462" y="288" width="22" height="12" fill="#c9d1d9" />
+    <rect x="484" y="288" width="22" height="12" fill="#ffffff" />
+  </g>
+
+  
+  <text x="25" y="316" class="mono">
+    <tspan class="prompt-user">sergio@debian</tspan><tspan class="val">:</tspan><tspan class="prompt-path">~</tspan><tspan class="val">$ </tspan>
+  </text>
+  <rect x="165" y="304" width="9" height="15" class="cursor" />
+</svg>
